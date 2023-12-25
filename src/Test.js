@@ -668,7 +668,7 @@ const Test = () => {
                 <span className="container">
                   <br />
                   <h5 style={{width: '100%', textAlign: 'center', color: '#fff478'}}>{'{'}TACS{'}'}</h5>
-                  <p style={{width: '100%', textAlign: 'center'}}>© 2022-2023 Texas A&amp;M Computing Society</p>
+                  <p style={{width: '100%', textAlign: 'center'}}>© 2024 Texas A&amp;M Computing Society</p>
                   <p style={{width: '100%', textAlign: 'center'}}>Created by <a>Aayush Garg</a>. Themed by <a>Avery Erwin</a>.</p>
                 </span></div>
             </div>
