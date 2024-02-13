@@ -1,2 +1,5 @@
-The official TACS website (pre summer 2020)
-#Developed by Joshua Salinas
+# tacs.tamu.edu
+# Designed by: Jayant Singh (Webmaster at TACS)
+# Themed by: Avery Erwin (VP at TACS)
+
+# Former Websmaster: Joshua Salinas
