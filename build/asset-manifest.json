@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/TACSTAMU.github.io/static/css/main.464194f9.css",
+    "main.js": "/TACSTAMU.github.io/static/js/main.520d3385.js",
+    "static/js/787.c08cfdb6.chunk.js": "/TACSTAMU.github.io/static/js/787.c08cfdb6.chunk.js",
+    "static/media/monte2.png": "/TACSTAMU.github.io/static/media/monte2.32cc2294a0c955ed0524.png",
+    "static/media/akshay2.png": "/TACSTAMU.github.io/static/media/akshay2.9ca73580fdc2c6f6fbcf.png",
+    "static/media/aditya2.png": "/TACSTAMU.github.io/static/media/aditya2.b70076c5c2669631d568.png",
+    "static/media/aayush2.png": "/TACSTAMU.github.io/static/media/aayush2.2d92e78cd66397350b07.png",
+    "static/media/kayley2.png": "/TACSTAMU.github.io/static/media/kayley2.413cea72a704a62c2d6d.png",
+    "static/media/bp.png": "/TACSTAMU.github.io/static/media/bp.bc04fe2fc312eac8684c.png",
+    "static/media/labatt.png": "/TACSTAMU.github.io/static/media/labatt.9b0ee83eabed220b0699.png",
+    "static/media/capital_one.png": "/TACSTAMU.github.io/static/media/capital_one.b9498e8eb5ab8d223bc1.png",
+    "static/media/simplify-logo.png": "/TACSTAMU.github.io/static/media/simplify-logo.df6c549b9b017edada9a.png",
+    "static/media/chevron_logo.png": "/TACSTAMU.github.io/static/media/chevron_logo.2343e32dbf026bbbefbd.png",
+    "static/media/paycom.png": "/TACSTAMU.github.io/static/media/paycom.929dbdcc4c67cbd8fd04.png",
+    "static/media/pwc.png": "/TACSTAMU.github.io/static/media/pwc.a8b35c5d4edddac1cc78.png",
+    "static/media/GM.png": "/TACSTAMU.github.io/static/media/GM.51028f56e39a1c7a2481.png",
+    "static/media/cbre.png": "/TACSTAMU.github.io/static/media/cbre.9dabe5b7e63b86fafb08.png",
+    "static/media/logo.svg": "/TACSTAMU.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/TACSTAMU.github.io/index.html",
+    "main.464194f9.css.map": "/TACSTAMU.github.io/static/css/main.464194f9.css.map",
+    "main.520d3385.js.map": "/TACSTAMU.github.io/static/js/main.520d3385.js.map",
+    "787.c08cfdb6.chunk.js.map": "/TACSTAMU.github.io/static/js/787.c08cfdb6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.464194f9.css",
+    "static/js/main.520d3385.js"
+  ]
+}
