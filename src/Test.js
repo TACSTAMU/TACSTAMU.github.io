@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import React, { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import anime, { set } from 'animejs'
 import './gridly.min.css';
 import './bootstrap.css'
@@ -244,9 +245,9 @@ const Test = () => {
                   <li className="nav-item">
                     <a className="nav-link js-scroll-trigger" href="#membership" style={{paddingTop: '10px', paddingBottom: '0px'}}>Membership</a>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link js-scroll-trigger" href="build4good.html" style={{paddingTop: '10px', paddingBottom: '0px'}}>.</a>
-                  </li>
+                  <Link to="/build4good">
+                    <a className="nav-link js-scroll-trigger" style={{paddingTop: '10px', paddingBottom: '0px'}}>.</a>
+                  </Link>
                 </ul>
               </div>
             </div>
@@ -673,7 +674,7 @@ const Test = () => {
                 <span className="container">
                   <br />
                   <h5 style={{width: '100%', textAlign: 'center', color: '#fff478'}}>{'{'}TACS{'}'}</h5>
-                  <p style={{width: '100%', textAlign: 'center'}}>© 2024 Texas A&amp;M Computing Society</p>
+                  <p style={{width: '100%', textAlign: 'center'}}>© {new Date().getFullYear()} Texas A&amp;M Computing Society</p>
                   <p style={{width: '100%', textAlign: 'center'}}>Created by <a>Aayush Garg</a>. Themed by <a>Avery Erwin</a>.</p>
                 </span></div>
             </div>
