@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta name="description" content="The Texas A&M Computing Society is dedicated to promoting upcoming technological interests among fellow Aggies.">
+    <meta name="author" content="Joshua Salinas">
+    <title>TACS</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/indexAssets/creative.css" rel="stylesheet">
+    <link href="css/indexAssets/bootstrap.css" rel="stylesheet">
+    <!-- Custom fonts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script>
+    window.sr = ScrollReveal();
+    </script>
+    <script>
+    $(document).ready(function() {
+
+        $('.faq_question').click(function() {
+
+            if ($(this).parent().is('.open')) {
+                $(this).closest('.faq').find('.faq_answer_container').animate({ 'height': '0' }, 500);
+                $(this).closest('.faq').removeClass('open');
+
+            } else {
+                var newHeight = $(this).closest('.faq').find('.faq_answer').height() + 'px';
+                $(this).closest('.faq').find('.faq_answer_container').animate({ 'height': newHeight }, 500);
+                $(this).closest('.faq').addClass('open');
+            }
+
+        });
+
+    });
+    </script>
+    <style>
+    .sr .intro {
+        visibility: hidden;
+    }
+    .sr .contact {
+        visibility: hidden;
+    }
+    .icons-sm {
+        padding: 10px
+    }
+    </style>
+</head>
+
+<body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">TACS</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="./members.html">Members</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav -->
+    <!-- main -->
+    <header class="masthead text-center text-white d-flex" style="">
+        <div class="container my-auto">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div id="typed-strings">
+                        <h1 class="text-center">{TACS}</h1>
+                    </div>
+                    <span id="typed"></span>
+                    <script>
+                    var typed = new Typed("#typed", {
+                        stringsElement: '#typed-strings',
+                        typeSpeed: 100,
+                        startDelay: 1000,
+                        showCursor: true,
+                        loop: false
+                    });
+                    </script>
+                    <hr>
+                </div>
+                <div class="col-lg-8 mx-auto">
+                    <div class="intro">
+                        <p class="text-faded mb-5">The Texas A&M Computing Society is dedicated to promoting upcoming technological interests among fellow Aggies.</p>
+                    </div>
+                    <script>
+                    sr.reveal('.intro', { duration: 1000, delay: 2000, useDelay: 'onload' })
+                    </script>
+                </div>
+            </div>
+        </div>
+        <script>
+        sr.reveal('.rev2', { duration: 1000, delay: 200, useDelay: 'onload' })
+        </script>
+    </header>
+    <!-- Events -->
+    <section class="bg-primary" id="events">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="events">
+                        <h2 class="section-heading text-white">Join us!</h2>
+                        <hr class="light my-4">
+                    </div>
+                    <div class="events1">
+                        <p class="text-faded mb-4">Whether you are a coding-wizard or just learning how to type, we welcome all Aggies to partake in our events with awesome speakers!</p>
+                        <iframe src="https://calendar.google.com/calendar/b/3/embed?height=526&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=tamu.edu_ad54lcc88gu8lclb6t8h61dr40%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FChicago" style="border-width:0" width="600" height="526" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+        sr.reveal('.events', { duration: 1200 })
+        </script>
+        <script>
+        sr.reveal('.events1', { duration: 1200 })
+        </script>
+    </section>
+    <!-- Spotlight
+    <section id="spotlight">
+        <div class="container">
+            <div class="col-lg-12 text-primary">
+                <div class="spot">
+                    <h2 class="section-heading text-primary">Spotlight</h2>
+                    <hr class="cus">
+                    <br>
+                    <br>
+                    <div class="spot1">
+                        <p class="text-faded mb-4 text-primary">Spotlight is a great opportunity to showcase your knowledge and skills of programming. You can review our rules and submit a project below.</p>
+                        <div class="text-center">
+                            <a href="./submit.html">
+                                <button class="peterriver text-center">Spotlight</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="tab">
+                <table class="item-list">
+                    <tr>
+                        <th class="text-primary">Rank</th>
+                        <th class="text-primary">Name</th>
+                        <th class="text-primary">Website</th>
+                    </tr>
+                    <tr class="text-primary" style="font-family: 'Raleway', sans-serif;">
+                        <td class="text-primary">00</td>
+                        <td class="text-center" style="font-family: 'Raleway', sans-serif;">
+                            <h2 class="text-center" style="font-family: 'Raleway', sans-serif;">Your name could be here!</h2>
+                        </td>
+                        <td>
+                            <h2 style="font-family: 'Raleway', sans-serif;">https://yourWebsiteCouldBeHere!</h2>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script>
+        sr.reveal('.spot', { duration: 1200 })
+        </script>
+        <script>
+        sr.reveal('.tab', { duration: 1200 })
+        </script>
+    </section>
+    <section id="about" class="bg-primary">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="about">
+                        <h2 class="section-heading text-white">About us</h2>
+                        <hr class="light my-4">
+                    </div>
+                    <div class="faq">
+                        <div class="faq_container text-left">
+                            <div class="faq">
+                                <div class="faq_question">What is TACS?</div>
+                                <div class="faq_answer_container">
+                                    <div class="faq_answer text-faded" style="padding-left:20px;">TACS (Texas A&M Computing Society) is the official student chapter of the Association of Computing Machinery and IEEE Computer Society. We encourage professional development by sponsoring industry speakers and professors while providing numerous networking opportunities.</div>
+                                </div>
+                            </div>
+                            <div class="faq">
+                                <div class="faq_question">What are the qualifications to join?</div>
+                                <div class="faq_answer_container">
+                                    <div class="faq_answer text-faded" style="padding-left:20px;">At TACS, we welcome anyone! We want to serve as a platform for any student interested in becoming involved in the tech community.</div>
+                                </div>
+                            </div>
+                            <div class="faq">
+                                <div class="faq_question">When and where is the next meeting?</div>
+                                <div class="faq_answer_container">
+                                    <div class="faq_answer text-faded" style="padding-left:20px;">Our event information is usually listed on our Google Calendar; However, if by chance certain information is missing, please feel free to contact one of the board members. </div>
+                                </div>
+                            </div>
+                            <div class="faq">
+                                <div class="faq_question">What are workshops?</div>
+                                <div class="faq_answer_container">
+                                    <div class="faq_answer text-faded" style="padding-left:20px;">Workshops are a great way for you to get your feet wet with coding. On a given workshop event, we will focus on a precise topic such as the intro to python, and we will demo a simple application that others can follow along to. Our workshops are hosted by either a professor, alum, company rep, or one of our board members! </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        <!-- scrollreveal js! -->
+        <script>
+        sr.reveal('.about', { duration: 1200 })
+        </script>
+        <script>
+        sr.reveal('.faq', { duration: 1200 })
+        </script>
+    </section>
+
+
+    <!-- Positions and Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-primary">TACS Board Members</h2>
+                    <hr class="my-4 cus">
+                </div>
+            </div>
+        </div>
+
+        <class="container">
+            <div class="row no-gutters text-center justify-content-center">
+                <!-- President -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mx-auto">
+                        <div class="block">
+                            <div class="contact">
+                                <img class="image" src="img/officers/PriyankaP.jpeg" alt="President" width="240" height="240">
+                                <div class="links__">
+                                    <p class="text_title">Priyanka Paul</p>
+                                    <p class="text-muted textp">President</p>
+                                    <a class="icons-sm" href="https://www.facebook.com/priyanka.paul.79069323" target="_blank" rel="noopener"><i class="fab fa-facebook-f fa-2x"></i></a>
+                                    <a href="mailto:priyankapaul9@tamu.edu" target="_blank" rel="noopener"><i class="fa fa-align-center fa-envelope fa-2x"> </i></a>
+                                </div>
+                                <div class="avi__name">Priyanka Paul</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Faculty Sponsor -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mx-auto">
+                        <div class="block">
+                            <div class="contact">
+                                <img class="image" src="img/officers/drTyagi.JPG" alt="faculty sponsor" width="240" height="240">
+                                <div class="links__">
+                                    <p class="text_title">Aakash Tyagi</p>
+                                    <p class="text-muted textp">Faculty Sponsor</p>
+                                    <a class="icons-sm" href="mailto:tyagi@cse.tamu.edu" target="_blank" rel="noopener"><i class="fa fa-align-center fa-envelope fa-2x"> </i></a>
+                                </div>
+                                <div class="avi__name">Aakash Tyagi</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VP -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mx-auto">
+                        <div class="block">
+                            <div class="contact">
+                                <img class="image" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="vice president" width="240" height="240">
+                                <div class="links__">
+                                    <p class="text_title">Omar Santos</p>
+                                    <p class="text-muted textp">Vice President</p>
+                                    <a href="mailto:omars98@tamu.edu" target="_blank" rel="noopener"><i class="fa fa-align-center fa-envelope fa-2x"> </i></a>
+                                    <a class="icons-sm" href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.linkedin.com_in_jsalinas99&d=DwMFaQ&c=u6LDEWzohnDQ01ySGnxMzg&r=5A_g8gs6OVX6pDFBKoovsA&m=jwlYoze9QAC8ik62AnxI7X1gMLXbrTGdZM3wz4qBeYc&s=IRDZDllwpkn5FiD8vPkQIFToNQDwc1FCBpA_VOu6qV8&e=" target="_blank" rel="noopener"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                                </div>
+                                <div class="avi__name">Omar Santos</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters text-center justify-content-center">
+                <!-- Treasurer -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mx-auto">
+                        <div class="block">
+                            <div class="contact">
+                                <img class="image" src="img/officers/BearE.jpeg" alt="treasurer" width="240" height="240">
+                                <div class="links__">
+                                    <!-- Name & Title -->
+                                    <p class="text_title">Bear Ergo</p>
+                                    <p class="text-muted textp">Treasurer</p>
+                                    <!-- Socials for Treasurer -->
+                                    <a class="icons-sm" href="mailto:Bjergo@email.tamu.edu" target="_blank" rel="noopener"><i class="fa fa-align-center fa-envelope fa-2x"> </i></a>
+                                </div>
+                                <div class="avi__name">Bear Ergo</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Communications Officer -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mx-auto">
+                        <div class="block">
+                            <div class="contact">
+                                <img class="image" src="img/officers/AveryE.jpeg" alt="communications officer" width="240" height="240">
+                                <div class="links__">
+                                    <p class="text_title" style="font-size: 11">Avery Erwin</p>
+                                    <p class="text-muted textp">Communication Officer</p>
+                                    <a class="icons-sm" href="mailto:acerwin@tamu.edu" rel="noopener"><i class="fa fa-align-center fa-envelope fa-2x"> </i></a>
+                                    <a class="icons-sm" href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.linkedin.com_in_averyerwin_&d=DwMFaQ&c=u6LDEWzohnDQ01ySGnxMzg&r=tVowTnOC2kbpP_FZPuxisj7sGswhb9DF7zw-4o8-NNc&m=sNZmWusD3hzvyEPpeIaPpdaajupm_0ju6fSRpF8jlRY&s=aSpWf5U_ldIzNg843YU-zxw6saWd_y_oF8NzoHqkXOo&e=" target="_blank" rel="noopener"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                                    <a class="icons-sm" href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.instagram.com_averyerwin-5F_&d=DwMFaQ&c=u6LDEWzohnDQ01ySGnxMzg&r=tVowTnOC2kbpP_FZPuxisj7sGswhb9DF7zw-4o8-NNc&m=sNZmWusD3hzvyEPpeIaPpdaajupm_0ju6fSRpF8jlRY&s=pBMo_txzhfP8Lu6un1tpWzcEeyTPpXDNltxyrA2FmeY&e=" target="_blank" rel="noopener"><i class="fab fa-instagram fa-2x"></i>
+                                    <a class="icons-sm" href="http://www.averyer.win" target="_blank" rel="noopener"><i class="fas fa-user fa-2x"></i>
+                                    <a class="icons-sm" href="https://www.facebook.com/avery.erwin.31" target="_blank" rel="noopener"><i class="fab fa-facebook-f fa-2x"></i></a>
+                                </div>
+                                <div class="avi__name">Avery Erwin</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Webmaster -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mx-auto">
+                        <div class="block">
+                            <div class="contact">
+                                <img class="image" src="img/officers/joshS.JPG" alt="webmaster" width="240" height="240">
+                                <div class="links__">
+                                    <p class="text_title">Joshua Salinas</p>
+                                    <p class="text-muted textp">Webmaster</p>
+                                    <a class="icons-sm" href="mailto:joshuasalinas@tamu.edu" rel="noopener"><i class="fa fa-align-center fa-envelope fa-2x"> </i></a>
+                                    <a class="icons-sm" href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.linkedin.com_in_jsalinas99&d=DwMFaQ&c=u6LDEWzohnDQ01ySGnxMzg&r=5A_g8gs6OVX6pDFBKoovsA&m=jwlYoze9QAC8ik62AnxI7X1gMLXbrTGdZM3wz4qBeYc&s=IRDZDllwpkn5FiD8vPkQIFToNQDwc1FCBpA_VOu6qV8&e=" target="_blank" rel="noopener"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                                    <a class="icons-sm" href="https://intagram.com/joshdbwh" target="_blank" rel="noopener"><i class="fab fa-instagram fa-2x"></i>
+                                    <a class="icons-sm" href="https://urldefense.proofpoint.com/v2/url?u=https-3A__twitter.com_joshDBWH&d=DwMFaQ&c=u6LDEWzohnDQ01ySGnxMzg&r=5A_g8gs6OVX6pDFBKoovsA&m=jwlYoze9QAC8ik62AnxI7X1gMLXbrTGdZM3wz4qBeYc&s=Py7kJJSAMIbXSMxkvO_aZkxCX5zoYD91zJ_r2HX_HFk&e=" target="_blank" rel="noopener"><i class="fab fa-align-center fa-twitter fa-2x"> </i></a>
+                                    <a class="icons-sm" href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.facebook.com_joshua.salinas.7731&d=DwMFaQ&c=u6LDEWzohnDQ01ySGnxMzg&r=5A_g8gs6OVX6pDFBKoovsA&m=jwlYoze9QAC8ik62AnxI7X1gMLXbrTGdZM3wz4qBeYc&s=7Bvc6HtgVlOpRK-zs-Cay1K8NQLW6GgkAbiD74ZGHfg&e=" target="_blank" rel="noopener"><i class="fab fa-facebook-f fa-2x"></i></a>
+                                </div>
+                                <div class="avi__name">Joshua Salinas</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="text-center text-primary"><p>Question, comment, or concern? Shoot us an email at: <a class="text-primary" href="mailto:tacs-officers@lists.tamu.edu" target="_blank" rel="noopener">tacs-officers@lists.tamu.edu</a></p></div>
+            <script>
+            sr.reveal('.contact', { duration: 1200 })
+            </script>
+        </div>
+    </section>
+    <!-- Footer-->
+    <div class="foot">
+        <footer class="footer-bs">
+            <div class="row">
+                <div class="col-md-3 footer-brand animated fadeInLeft">
+                    <h2>{TACS}</h2>
+                    <p>Bringing the content to the Aggies.</p>
+                    <p>© 2019-2020 Texas A&M Computing Society, All rights reserved.</p>
+                </div>
+                <div class="col-md-3 footer-nav animated fadeInUp">
+                    <h4>Menu —</h4>
+                    <div class="col-md-3">
+                        <ul class="list">
+                            <li><a class="nav-link js-scroll-trigger" href="#events">Events</a></li>
+                            <!-- <li><a class="nav-link js-scroll-trigger" href="#spotlight">Spotlight</a></li> -->
+                            <li><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                            <li><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                            <li><a href="./members.html">Members</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-nav">
+                    <h4>Contact —</h4>
+                    <a class="icons-sm fb-ic" href="https://www.facebook.com/groups/349859495183991/" target="_blank" rel="noopener"><i class="fa fa-facebook-square fa-3x white-text mr-md-4"> </i></a>
+                    <a class="icons-sm tw-ic" href="https://twitter.com/tamutacs" target="_blank" rel="noopener"><i class="fa fa-twitter-square fa-3x white-text mr-md-4"> </i></a>
+                    <a class="icons-sm tw-ic" href="mailto: tacs-officers@groups.tamu.edu" target="_blank" rel="noopener"><i class="fa fa-envelope-square fa-3x white-text mr-md-4"> </i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+    sr.reveal('.foot', { duration: 1200 })
+    </script>
+    <p class="text-primary text-center" style="padding-bottom: 10px">Made with <i class="fa fa-heart"></i> by <a href="https://www.Twitter.com/@joshDBWH" class="text-primary">@JoshDBWH</a></p>
+    <!-- JS -->
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/scrollreveal.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/creative.js"></script>
+</body>
+
+</html>
