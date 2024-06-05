@@ -12,7 +12,7 @@ function App() {
       
       
       <Routes>
-          <Route path="/TACSTAMU.github.io" element={<Test />} />
+          <Route path="/" element={<Test />} />
           
           <Route path="/build4good" element={<Test2 />} />
           <Route path="/b4g-mentor" element={<Mentor />} />
