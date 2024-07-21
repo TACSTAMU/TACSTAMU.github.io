@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import tacs_logo from '../../public/tacs_logo.png';
 
@@ -14,15 +15,15 @@ const Navbar:React.FC<Props> = ({ selectedPage }) => {
         <nav className="bg-white shadow-sm shadow-primary-light">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
-                    <div className="flex-shrink-0 flex items-center">
+                    <Link href={"/"} className="flex-shrink-0 flex items-center">
                         <Image src={tacs_logo} alt="Your Brand Logo" width={130} height={40} /> {/* Adjust width and height as needed */}
-                    </div>
+                    </Link>
                     <div className="hidden md:flex md:items-center md:space-x-4">
-                        <a href="#" className={`text-gray-500 hover:text-gray-700 px-3 py-2 text-sm font-medium ${selectedPage === "Join" || selectedPage === "join" ? 'text-primary border-b-2 border-primary font-bold font-xl' : ''}`}>Join</a>
-                        <a href="#" className={`text-gray-500 hover:text-gray-700 px-3 py-2 text-sm font-medium ${selectedPage === "About" || selectedPage === "about" ? 'text-primary border-b-2 border-primary font-bold font-xl' : ''}`}>About</a>
-                        <a href="#" className={`text-gray-500 hover:text-gray-700 px-3 py-2 text-sm font-medium ${selectedPage === "Events" || selectedPage === "events" ? 'text-primary border-b-2 border-primary font-bold font-xl' : ''}`}>Events</a>
-                        <a href="#" className="bg-white border-2 border-b-4 border-r-4 border-primary text-primary px-4 py-2 rounded-full text-sm font-medium hover:bg-primary-light hover:text-white">Join our Discord</a>
-                        <a href="#" className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">Contact</a>
+                        <Link href="/join" className={`text-gray-500 hover:text-gray-700 px-3 py-2 text-sm font-medium ${selectedPage === "Join" || selectedPage === "join" ? 'text-primary border-b-2 border-primary font-bold font-xl' : ''}`}>Join</Link>
+                        <Link href="/about" className={`text-gray-500 hover:text-gray-700 px-3 py-2 text-sm font-medium ${selectedPage === "About" || selectedPage === "about" ? 'text-primary border-b-2 border-primary font-bold font-xl' : ''}`}>About</Link>
+                        <Link href="#" className={`text-gray-500 hover:text-gray-700 px-3 py-2 text-sm font-medium ${selectedPage === "Events" || selectedPage === "events" ? 'text-primary border-b-2 border-primary font-bold font-xl' : ''}`}>Events</Link>
+                        <Link href="#" className="bg-white border-2 border-b-4 border-r-4 border-primary text-primary px-4 py-2 rounded-full text-sm font-medium hover:bg-primary-light hover:text-white">Join our Discord</Link>
+                        <Link href="#" className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">Contact</Link>
                     </div>
                     <div className="md:hidden">
                         <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-gray-500 hover:text-gray-700 focus:outline-none">
