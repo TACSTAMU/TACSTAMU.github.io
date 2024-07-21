@@ -51,8 +51,8 @@ const Home: React.FC = () => {
 
       <div className="mt-12 flex justify-center gap-x-12 px-4">
         <EventCard icon={MicrophoneIcon} title="Tech Talks" description="See industry speakers talk about what’s cool in the CS world." />
-        <EventCard icon={SocialIcon} title="Socials" description="See industry speakers talk about what’s cool in the CS world. " />
-        <EventCard icon={WorkshopsIcon} title="Workshops" description="See industry speakers talk about what’s cool in the CS world." />
+        <EventCard icon={SocialIcon} title="Socials" description="Get to know your peers and connect with like-minded people while having fun!" />
+        <EventCard icon={WorkshopsIcon} title="Workshops" description="Learn industry-relevant skills from experienced students and company speakers." />
       </div>
 
       <div className="flex justify-center mt-8 mb-14">
