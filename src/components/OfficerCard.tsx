@@ -7,7 +7,7 @@ interface Props {
     officer: {
         name: string
         title: string
-        photo: any
+        photo?: any
         linkedinLink?: string
         email: string
     }
