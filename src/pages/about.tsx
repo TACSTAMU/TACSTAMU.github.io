@@ -7,66 +7,92 @@ import OfficerCard from "@/components/OfficerCard";
 
 import WhatWeDoPageImage from "../../public/what_we_do_page_image.png";
 
+import ayush_garg_headshot from "../../public/ayush_garg_headshot.png"
+import akshay_belhe_headshot from "../../public/akshay_belhe_headshot.png"
+import kayley_vu_headshot from "../../public/kayley_vu_headshot.png"
+import aditya_nambi_headshot from "../../public/adi_nambi_headshot.png";
+import montgomery_bohde_headshot from "../../public/montgomery_bohde_headshot.png";
+import sumit_nalavade_headshot from "../../public/sumit_nalavade_headshot.png";
+import keshari_rijal_headshot from "../../public/keshari_rijal_headshot.png";
+import sid_das_headshot from "../../public/sid_das_headshot.png";
+import aarya_patel_headshot from "../../public/aarya_patel_headshot.png";
+import sanjana_pasumarthi_headshot from "../../public/sanjana_pasumarthi_headshot.png";
+
 const Officers = [
     {
         name: "Ayush Garg",
         title: "President",
         linkedinLink: "https://www.linkedin.com/in/aayushg1414/",
-        email: "aayushg1414@tamu.edu"
+        email: "aayushg1414@tamu.edu",
+        photo: ayush_garg_headshot
     },
     {
         name: "Akshay Behle",
         title: "Treasurer",
         linkedinLink: "https://www.linkedin.com/in/akshaybelhe/",
-        email: "abelhe8900@tamu.edu"
+        email: "abelhe8900@tamu.edu",
+        photo: akshay_belhe_headshot
     },
     {
         name: "Kayley Vu",
         title: "Creative Director",
         linkedinLink: "https://www.linkedin.com/in/kayley-vu/",
-        email: "kayley_vu@tamu.edu"
+        email: "kayley_vu@tamu.edu",
+        photo: kayley_vu_headshot
     },
     {
         name: "Aditya Nambi",
         title: "Outreach + Logistics Lead",
         linkedinLink: "https://www.linkedin.com/in/adityanambi/",
-        email: "anambi@tamu.edu"
+        email: "anambi@tamu.edu",
+        photo: aditya_nambi_headshot
     },
     {
         name: "Montgomery Bohde",
         title: "Tech Lead",
         linkedinLink: "https://www.linkedin.com/in/montgomery-bohde/",
-        email: "mbohde@tamu.edu"
+        email: "mbohde@tamu.edu",
+        photo: montgomery_bohde_headshot
     },
     {
         name: "Sumit Nalavade",
         title: "Tech Officer",
         linkedinLink: "https://www.linkedin.com/in/sumit-nalavade/",
-        email: "sumit.nalavade@tamu.edu"
+        email: "sumit.nalavade@tamu.edu",
+        photo: sumit_nalavade_headshot
     },
     {
         name: "Keshari Rijal",
         title: "Marketing Officer",
         linkedinLink: "https://www.linkedin.com/in/keshari-rijal/",
-        email: "kr66562@tamu.edu"
+        email: "kr66562@tamu.edu",
+        photo: keshari_rijal_headshot
     },
     {
         name: "Sid Das",
         title: "Outreach + Logistics Officer",
         linkedinLink: "https://www.linkedin.com/in/siddharthadas5",
-        email: "sdas05@tamu.edu"
+        email: "sdas05@tamu.edu",
+        photo: sid_das_headshot
     },
     {
         name: "Aarya Patel",
         title: "Outreach + Logistics Officer",
         linkedinLink: "https://www.linkedin.com/in/aaryaapatel/",
-        email: "aarya.patel@tamu.edu"
+        email: "aarya.patel@tamu.edu",
+        photo: aarya_patel_headshot
     },
     {
         name: "Aashka Dasgupta",
         title: "Outreach + Logistics Officer",
         linkedinLink: "https://www.linkedin.com/in/aashkadasgupta/",
         email: "aashka.dasgupta@tamu.edu"
+    },
+    {
+        name: "Sanjana Pasumarthi",
+        title: "Outreach + Logistics Officer",
+        email: "sanjana204@tamu.edu",
+        photo: sanjana_pasumarthi_headshot
     }
 ]
 
