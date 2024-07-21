@@ -7,7 +7,7 @@ interface Props {
     description: string;
 }
 
-const Card: React.FC<Props> = ({ icon, title, description }) => (
+const EventCard: React.FC<Props> = ({ icon, title, description }) => (
     <div className="border-2 border-primary-light border-r-4 border-b-4 rounded-2xl p-10 w-64 text-center">
         <div className="relative w-28 h-28 mx-auto mb-4">
             <Image src={icon} alt={`${title} icon`} layout="fill" objectFit="contain" />
@@ -17,4 +17,4 @@ const Card: React.FC<Props> = ({ icon, title, description }) => (
     </div>
 );
 
-export default Card;
+export default EventCard;

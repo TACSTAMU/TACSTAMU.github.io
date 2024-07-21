@@ -9,7 +9,7 @@ import JoinPageImage from "../../public/join_page_image.png";
 const JoinPage: React.FC = () => {
     return (
         <div className="flex flex-col min-h-screen">
-            <Navbar />
+            <Navbar selectedPage="join" />
 
             <div className="flex-grow pt-28 max-w-7xl mx-auto px-4">
                 <div className="flex">
