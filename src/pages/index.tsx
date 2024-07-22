@@ -50,9 +50,29 @@ const Home: React.FC = () => {
       </div>
 
       <div className="mt-12 flex justify-center gap-x-12 px-4">
-        <EventCard icon={MicrophoneIcon} title="Tech Talks" description="See industry speakers talk about what’s cool in the CS world." />
-        <EventCard icon={SocialIcon} title="Socials" description="Get to know your peers and connect with like-minded people while having fun!" />
-        <EventCard icon={WorkshopsIcon} title="Workshops" description="Learn industry-relevant skills from experienced students and company speakers." />
+        <div className="border-2 border-primary-light border-r-4 border-b-4 rounded-2xl p-10 w-64 text-center">
+          <div className="relative w-28 h-28 mx-auto mb-4">
+            <Image src={MicrophoneIcon} alt={`Microphone icon`} layout="fill" objectFit="contain" />
+          </div>
+          <h2 className="text-primary font-bold text-xl mb-2">Tech Talks</h2>
+          <p className="text-gray-600 text-sm">See industry speakers talk about what’s cool in the CS world.</p>
+        </div>
+
+        <div className="border-2 border-primary-light border-r-4 border-b-4 rounded-2xl p-10 w-64 text-center">
+          <div className="relative w-28 h-28 mx-auto mb-4">
+            <Image src={SocialIcon} alt={`Person icon`} layout="fill" objectFit="contain" />
+          </div>
+          <h2 className="text-primary font-bold text-xl mb-2">Socials</h2>
+          <p className="text-gray-600 text-sm">Get to know your peers and connect with like-minded people while having fun!</p>
+        </div>
+
+        <div className="border-2 border-primary-light border-r-4 border-b-4 rounded-2xl p-10 w-64 text-center">
+          <div className="relative w-28 h-28 mx-auto mb-4">
+            <Image src={WorkshopsIcon} alt={`Book icon`} layout="fill" objectFit="contain" />
+          </div>
+          <h2 className="text-primary font-bold text-xl mb-2">Workshops</h2>
+          <p className="text-gray-600 text-sm">Learn industry-relevant skills from experienced students and company speakers.</p>
+        </div>
       </div>
 
       <div className="flex justify-center mt-8 mb-14">
