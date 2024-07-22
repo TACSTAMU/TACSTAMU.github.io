@@ -21,7 +21,7 @@ const Navbar:React.FC<Props> = ({ selectedPage }) => {
                     <div className="hidden md:flex md:items-center md:space-x-4">
                         <Link href="/join" className={`text-gray-500 hover:text-gray-700 px-3 py-2 text-sm font-medium ${selectedPage === "Join" || selectedPage === "join" ? 'text-primary border-b-2 border-primary font-bold font-xl' : ''}`}>Join</Link>
                         <Link href="/about" className={`text-gray-500 hover:text-gray-700 px-3 py-2 text-sm font-medium ${selectedPage === "About" || selectedPage === "about" ? 'text-primary border-b-2 border-primary font-bold font-xl' : ''}`}>About</Link>
-                        <Link href="#" className={`text-gray-500 hover:text-gray-700 px-3 py-2 text-sm font-medium ${selectedPage === "Events" || selectedPage === "events" ? 'text-primary border-b-2 border-primary font-bold font-xl' : ''}`}>Events</Link>
+                        <Link href="/events" className={`text-gray-500 hover:text-gray-700 px-3 py-2 text-sm font-medium ${selectedPage === "Events" || selectedPage === "events" ? 'text-primary border-b-2 border-primary font-bold font-xl' : ''}`}>Events</Link>
                         <Link href="#" className="bg-white border-2 border-b-4 border-r-4 border-primary text-primary px-4 py-2 rounded-full text-sm font-medium hover:bg-primary-light hover:text-white">Join our Discord</Link>
                         <Link href="#" className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">Contact</Link>
                     </div>
