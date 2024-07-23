@@ -20,14 +20,14 @@ import sanjana_pasumarthi_headshot from "../../public/sanjana_pasumarthi_headsho
 
 const Officers = [
     {
-        name: "Ayush Garg",
+        name: "Aayush Garg",
         title: "President",
         linkedinLink: "https://www.linkedin.com/in/aayushg1414/",
         email: "aayushg1414@tamu.edu",
         photo: ayush_garg_headshot
     },
     {
-        name: "Akshay Behle",
+        name: "Akshay Belhe",
         title: "Treasurer",
         linkedinLink: "https://www.linkedin.com/in/akshaybelhe/",
         email: "abelhe8900@tamu.edu",
@@ -115,9 +115,9 @@ const AboutPage: React.FC = () => {
                         </p>
 
                         <div className="flex space-x-4">
-                            <a href="#" className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">More about us on LinkedIn</a>
+                            <a href="https://www.linkedin.com/company/tamucs/posts/?feedView=all"  target="_blank" className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">More about us on LinkedIn</a>
 
-                            <a href="#" className="bg-white border-2 border-b-4 border-r-4 border-primary text-primary px-4 py-2 rounded-full text-sm font-medium hover:bg-primary-light hover:text-white">Upcoming Events</a>
+                            <a href="/events" className="bg-white border-2 border-b-4 border-r-4 border-primary text-primary px-4 py-2 rounded-full text-sm font-medium hover:bg-primary-light hover:text-white">Upcoming Events</a>
                         </div>
                     </div>
                     <div className="flex-1 flex justify-center">

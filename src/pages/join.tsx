@@ -25,7 +25,7 @@ const JoinPage: React.FC = () => {
                         </p>
 
                         <div>
-                            <a href="#" className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">Questions? Reach out!</a>
+                            <a href="mailto:tacs-officers@lists.tamu.edu" target="_blank" className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">Questions? Reach out!</a>
                         </div>
                     </div>
                     <div className="flex-1 flex justify-center">
