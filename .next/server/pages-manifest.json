@@ -1,9 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/events": "pages/events.js",
-  "/join": "pages/join.js",
-  "/about": "pages/about.js"
-}
+{"/_app":"pages/_app.js","/api/hello":"pages/api/hello.js","/about":"pages/about.html","/":"pages/index.html","/events":"pages/events.html","/join":"pages/join.html","/_document":"pages/_document.js","/_error":"pages/_error.js","/404":"pages/404.html"}

@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { FaDiscord } from "react-icons/fa";
 
 import JoinPageImage from "../../public/join_page_image.png";
 
@@ -25,7 +26,10 @@ const JoinPage: React.FC = () => {
                         </p>
 
                         <div>
-                            <a href="mailto:tacs-officers@lists.tamu.edu" target="_blank" className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">Questions? Reach out!</a>
+                            <a href="https://discord.com/" target="_blank" className="flex items-center gap-x-2 max-w-48 bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">
+                                <FaDiscord className='text-xl mt-0.5' />
+                                <p>Join our Discord</p>
+                            </a>
                         </div>
                     </div>
                     <div className="flex-1 flex justify-center">

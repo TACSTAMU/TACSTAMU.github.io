@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Link from "next/link";
 import Image from 'next/image';
 import StarIcon from '../../public/star_icon.png';
 import CursorIcon from '../../public/cursor_icon.png';
@@ -8,7 +9,6 @@ import WorkshopsIcon from "../../public/workshops_icon.png";
 
 import ImageCarousel from "@/components/ImageCarousel";
 import SponsorCarousel from "@/components/SponsorCarousel";
-import EventCard from "@/components/EventCard";
 import Footer from "@/components/Footer";
 
 const Home: React.FC = () => {
@@ -32,8 +32,8 @@ const Home: React.FC = () => {
         <h2 className="text-2xl max-w-lg text-wrap text-gray-600 text-center mx-auto z-10">The Official Student Chapter of ACM @ Texas A&M University</h2>
 
         <div className="flex justify-center gap-x-4 mt-6">
-          <a href="/events" className="bg-white border-2 border-b-4 border-r-4 border-primary text-primary px-4 py-2 rounded-full text-sm font-medium hover:bg-primary-light hover:text-white">Upcoming Events</a>
-          <a href="mailto:tacs-officers@lists.tamu.edu" target="_blank" className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">Get in touch!</a>
+          <Link href="/events" className="bg-white border-2 border-b-4 border-r-4 border-primary text-primary px-4 py-2 rounded-full text-sm font-medium hover:bg-primary-light hover:text-white">Upcoming Events</Link>
+          <a href="/contact" className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">Get in touch!</a>
         </div>
       </div>
 
@@ -76,7 +76,7 @@ const Home: React.FC = () => {
       </div>
 
       <div className="flex justify-center mt-8 mb-14">
-        <a href="/events" className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">See our past events</a>
+        <Link href="/events" className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">See our past events</Link>
       </div>
 
       <Footer />
