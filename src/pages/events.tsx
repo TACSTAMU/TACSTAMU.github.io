@@ -17,28 +17,28 @@ const EventsPage: React.FC = () => {
     const events = [{
         title: "Build4Good Hackathon",
         description: "“Join us for an exciting one or two-day hackathon-style event where engineering organizations and university students from diverse fields converge to tackle real-world challenges. Build4Good aims to foster collaboration, innovation, and the transformative power of technology to create solutions that make a positive impact.”",
-        link: "/",
+        link: "https://www.instagram.com/p/C49aNHHrY0j",
         photo: build4GoodHackathonPhoto
     }, 
     {
        title: "Easter Egg Hunt Social",
        description: "“Easter Egg Hunt at Aggie Park!! Gift card prize for the most eggs, with a headphones prize if you find one lucky egg. Free boba, courtesy of the DoorDash Campus Launchers.”",
-       link: "/",
+       link: "https://www.instagram.com/p/C5OUjVOOmOj/",
        photo: easterEggHuntPhoto
     },{
         title: "CapitalOne Industry Speakers",
         description: "“Perfect your elevator pitch and interview skills with direction from Capital One software engineers who are Texas A&M alumni! Free pizza and club shirts!”",
-        link: "/",
+        link: "https://www.instagram.com/p/C51SpnWuPvn/",
         photo: capitalOneSpeakersPhoto
     },{
         title: "TACS + Notion Event",
         description: "“Get ready for a tech talk with a Notion software engineer and MIT alumni who will go over a day in the life of a software engineer at Notion and how she leverages Notion in her daily work routine. Q&A session and free food, courtesy of the Notion Campus Launchers.”",
-        link: "/",
+        link: "https://www.instagram.com/p/CzkBf05LWPj/",
         photo: notionEventPhoto
     },{
         title: "Technical Interview Workshop With Paycom",
         description: "“Learn how to make the most out of your career fair experience with Paycom Talent Acquisition!”",
-        link: "/",
+        link: "https://www.instagram.com/p/CwywGK1OUqq/",
         photo: paycomTechnicalInterviewPhoto
     }]
 

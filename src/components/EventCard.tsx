@@ -20,7 +20,7 @@ const EventCard: React.FC<Props> = ({ event }) => {
                     <p className="text-gray-600 text-sm">{event.description}</p>
                 </div>
                 <div className="flex space-x-4 mt-4">
-                    <a href={event.link} className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">Learn More</a>
+                    <a href={event.link} target='_blank' className="bg-primary-light border-2 border-b-4 border-r-4 border-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-white hover:text-primary">Learn More</a>
                 </div>
             </div>
 
